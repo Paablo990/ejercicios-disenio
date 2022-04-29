@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--     
+    Ejercicio 9: 
+Utilizando un plan de viajero frecuente, un cliente de una aerolinea desea consultar
+donde puede viajar gratis con las millas acumuladas hasta el momento.
+Las opciones son las siguientes:
+• 60.000 millas – Europa (destino lejano).
+• 30.000 millas – América del Norte (destino intermedio).
+• 15.000 millas – América del Sur (destino cercano).
+Si el viajero es parte del plan “Plus” sus millas rinden el doble.
+Dado un ingreso de millas acumuladas y el ingreso de si es parte del plan Plus (s-Sí, n-No),
+indicarle al usuario cual es el destino más lejano al que puede viajar de manera gratuita, o indicarle
+que no dispone de millas suficientes en caso que no alcance los mínimos.
+Ejemplo.:
+Tengo 17.000 millas y soy parte del plan plus → puedo viajar a América del Norte como
+destino más lejano. -->
+
+
+    <form action="Ejercicio14.html">
+
+        <label>
+
+            Ingrese la cantidad de millas acumuladas:
+            <input type="number" id="millas" min="0">
+
+
+        </label><br>
+
+        <label for="planes">Seleccione su plan: </label>
+
+        <select name="Plan" id="plan">
+            <option value="pNormal">Plan Normal</option>
+            <option value="pPlus">Plan Plus</option>
+        </select>
+        <br>
+        <br>
+        <input type="button" value="calcular" id="btndata" />
+
+    </form>
+
+    <p id="data"></p>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/Ejercicio14.js"></script>
+
+</body>
+
+</html>
