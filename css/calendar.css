@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;900&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+form {
+  border: 1px solid black;
+  display: flex;
+  flex-flow: column;
+  gap: 0.5rem;
+  padding: 3rem;
+  margin: 0 auto;
+}
+
+select {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+table {
+  text-align: center;
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.dias > td {
+  width: 3rem;
+  aspect-ratio: 1;
+  padding: 0.5rem;
+  border: 1px solid black;
+}
+
+.mes {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.dias-semana {
+}
+
+.sin-dia {
+  background-color: lightgray;
+  opacity: 0.4;
+}
+
+.dia-mes:hover {
+  font-weight: 600;
+}
