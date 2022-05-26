@@ -3,5 +3,7 @@
     "prettier.useEditorConfig": false,
     "editor.tabSize": 2,
     "prettier.tabWidth": 2,
-    "prettier.useTabs": false
+    "prettier.useTabs": true,
+    "editor.fontFamily": "'Cascadia Code light'",
+    "editor.fontLigatures": true
 }
